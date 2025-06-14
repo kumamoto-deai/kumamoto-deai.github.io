@@ -345,6 +345,7 @@ figcaption {
   color: #333;
   margin-left: 20px;
   margin-right: 40px;
+  font-size: 14px;
   line-height: 120%;
 }
 
@@ -352,6 +353,7 @@ figcaption {
   float: right;
   vertical-align: baseline;
   margin-right: 0;
+  font-size: 14px;
 }
 
 .site-name {
@@ -1161,6 +1163,10 @@ figcaption {
     margin-bottom: 4px;
   }
 
+  .nav-link.w--current {
+    font-size: 16px;
+  }
+
   .nav-link.float-right {
     margin-left: 20px;
   }
@@ -1175,7 +1181,7 @@ figcaption {
 
   .post-content, .post-summary {
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .social-link-group {
@@ -1203,18 +1209,22 @@ figcaption {
     text-align: center;
   }
 
+  .button-round {
+    font-size: 16px;
+  }
+
   .main-title.w--current {
     text-align: right;
     margin-bottom: 0;
     margin-left: 10%;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 28px;
   }
 
   .list {
     font-family: Open Sans, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 160%;
   }
 
@@ -1237,7 +1247,7 @@ figcaption {
 
   .code-embed {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     overflow: hidden;
   }
 
@@ -1258,6 +1268,10 @@ figcaption {
 
   .heading-7, .bold-text-15 {
     font-size: 20px;
+  }
+
+  .code-embed-4 {
+    font-size: 14px;
   }
 }
 
